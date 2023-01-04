@@ -72,7 +72,7 @@ instantLoans.addEventListener('click',function(){
    
     
 })
-
+//doing for close the modal 
 instantClosing.addEventListener('click',function(){
     operationsContent.classList.remove('operations__content--active')
     operationsContent3.classList.add('operations__content--active')
