@@ -10,7 +10,7 @@ const navlinks = document.querySelector(".nav__links")
 btnshowmodal.forEach(element => {
     element.addEventListener('click',openModal)
 });
-// btnshowmodal.addEventListener("click",openModal)
+// btnshowmodal.addEventListener("click",openModal) nothing else
 btnclosemodal.addEventListener("click",hideModal)
 btnscrollto.addEventListener("click",scroll)
 function scroll(){
